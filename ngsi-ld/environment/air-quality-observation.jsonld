@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$schemaVersion": "0.0",
+  "$id": "https://cityhub.kr/AirQualityObserved/schema.json",
+  "title": " - Air quality observed schema",
+  "description": "An observation of air quality 
+                conditions at a certain place and time.",
+  "type": "object",
+  "allOf": [
+    {
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["AirQualityObserved"],
+          "description": "NGSI Entity type"
+        },
+        "globalLocationNumber ": {
+          "type": "string",
+          "description": "GS1 Global Location Number (GLN/SGLN)"
+        },
+        "measurementType": {
+          "type": "String",
+          "description ": "similar to device  ",
+        },
+        "co2": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Carbon dioxide"
+        },
+        "co": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Carbon Monoxide"
+        },
+        "no2": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Nitrogen dioxide"
+        },
+        "o3": {
+          "type": "number",
+          "minimum": 0,
+          "description": "ozone"
+        },
+       "pm10": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Particulate matter 1.0 
+                          micrometers or less in diameter"
+        },
+        "pm25": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Particulate matter 2.5 micrometers or less in diameter"
+        },
+        "so2": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Sulfur dioxide"
+        },
+        "voc": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Volatile Organic Compound Concentration (VOC) (unit: ㎍/㎥)"
+        },
+        "noise": {
+          "type": "number",
+          "minimum": 0,
+          "description": "?????"
+        },
+        "deviceType":
+        {
+          "type": "string",
+          "enum": ["FixedAirQualityMeasurement","PortableAirQualityMeasurement", "MovableAirQualityMeasurement"],
+          "description": "Mobility of the measuring device "
+        },
+        "indexRef": {
+          "$ref": "https://www.airkorea.or.kr/web/khaiInfo?pMENU_NO=129"
+        },
+      }
+    }
+  ],
+  "required": ["id", "type", "dateObserved", "location"]
+}
+
