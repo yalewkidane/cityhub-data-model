@@ -1,0 +1,7 @@
+{
+    "@context": {
+          "co2": "https://uri.fiware.org/ns/data-models#co2",
+          "location": "http://uri.etsi.org/ngsi-ld/location",
+        },
+    "generatedAt": "2020-06-26T17:12:36+00:00"
+}
