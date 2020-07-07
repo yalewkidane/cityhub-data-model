@@ -3,8 +3,7 @@
   "$schemaVersion": "0.0",
   "$id": "https://cityhub.kr/AirQualityObserved/schema.json",
   "title": " - Air quality observed schema",
-  "description": "An observation of air quality 
-                conditions at a certain place and time.",
+  "description": "An observation of air quality conditions at a certain place and time.",
   "type": "object",
   "allOf": [
     {
@@ -45,8 +44,7 @@
        "pm10": {
           "type": "number",
           "minimum": 0,
-          "description": "Particulate matter 1.0 
-                          micrometers or less in diameter"
+          "description": "Particulate matter 1.0 micrometers or less in diameter"
         },
         "pm25": {
           "type": "number",
