@@ -1,8 +1,29 @@
 {
     "@context": {
-        "yearly": "https://uri.fiware.org/ns/data-models#yearly",
-        "zen": "https://uri.fiware.org/ns/data-models#zen",
-        "zoneCode": "https://uri.fiware.org/ns/data-models#zoneCode"
+        "address": "https://cityhub.kr/ngsi-ld/address",
+        "globalLocationNumber": "https://cityhub.kr/ngsi-ld/globalLocationNumber",
+        "measurementType":"https://cityhub.kr/ngsi-ld/measurementType",
+        "co2":"https://cityhub.kr/ngsi-ld/co2",
+        "co":"https://cityhub.kr/ngsi-ld/co",
+        "so2":"https://cityhub.kr/ngsi-ld/so2",
+        "o3":"https://cityhub.kr/ngsi-ld/o3",
+        "no2":"https://cityhub.kr/ngsi-ld/no2",
+        "khai":"https://cityhub.kr/ngsi-ld/khai",
+        "pm10":"https://cityhub.kr/ngsi-ld/pm10",
+        "pm25":"https://cityhub.kr/ngsi-ld/pm25",
+        "temperature":"https://cityhub.kr/ngsi-ld/temperature",
+        "humidity":"https://cityhub.kr/ngsi-ld/humidity",
+        "voc":"https://cityhub.kr/ngsi-ld/voc",
+        "noise":"https://cityhub.kr/ngsi-ld/noise",
+        "height":"https://cityhub.kr/ngsi-ld/height",
+        "so2Level":"https://cityhub.kr/ngsi-ld/so2Level",
+        "coLevel":"https://cityhub.kr/ngsi-ld/coLevel",
+        "co2Level":"https://cityhub.kr/ngsi-ld/co2Level",
+        "no2Level":"https://cityhub.kr/ngsi-ld/no2Level",
+        "pm10Level":"https://cityhub.kr/ngsi-ld/pm10Level",
+        "pm25Level":"https://cityhub.kr/ngsi-ld/pm25Level",
+        "o3Level":"https://cityhub.kr/ngsi-ld/o3Level",
+        "khaiLevel":"https://cityhub.kr/ngsi-ld/khaiLevel",
     },
-    "generatedAt": "2020-06-26T17:12:36+00:00"
+    "generatedAt": "2020-07-04T17:12:36+00:00"
 }
