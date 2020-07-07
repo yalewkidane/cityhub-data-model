@@ -35,8 +35,7 @@
         "dailyRainfall":"https://cityhub.kr/ngsi-ld/dailyRainfall",
         "rainfall":"https://cityhub.kr/ngsi-ld/rainfall",
         "snowfall":"https://cityhub.kr/ngsi-ld/snowfall",
-        "visibility":"https://cityhub.kr/ngsi-ld/visibility",
-        
+        "visibility":"https://cityhub.kr/ngsi-ld/visibility"
     },
     "generatedAt": "2020-07-04T17:12:36+00:00"
 }
