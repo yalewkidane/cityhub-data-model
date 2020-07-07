@@ -26,6 +26,17 @@
         "khaiLevel":"https://cityhub.kr/ngsi-ld/khaiLevel",
         "totalIndex":"https://cityhub.kr/ngsi-ld/totalIndex",
         "totalCategory":"https://cityhub.kr/ngsi-ld/totalCategory",
+        "windDirection":"https://cityhub.kr/ngsi-ld/windDirection",
+        "windSpeed ":"https://cityhub.kr/ngsi-ld/windSpeed ",
+        "atmosphericPressure":"https://cityhub.kr/ngsi-ld/atmosphericPressure",
+        "seaLevelPressure":"https://cityhub.kr/ngsi-ld/seaLevelPressure",
+        "rainStatus":"https://cityhub.kr/ngsi-ld/rainStatus",
+        "hourlyRainfall":"https://cityhub.kr/ngsi-ld/hourlyRainfall",
+        "dailyRainfall":"https://cityhub.kr/ngsi-ld/dailyRainfall",
+        "rainfall":"https://cityhub.kr/ngsi-ld/rainfall",
+        "snowfall":"https://cityhub.kr/ngsi-ld/snowfall",
+        "visibility":"https://cityhub.kr/ngsi-ld/visibility",
+        
     },
     "generatedAt": "2020-07-04T17:12:36+00:00"
 }
