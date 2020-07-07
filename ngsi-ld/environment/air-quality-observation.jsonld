@@ -80,6 +80,6 @@
       }
     }
   ],
-  "required": ["id", "type", "dateObserved", "location"]
+  "required": ["id", "type"]
 }
 
