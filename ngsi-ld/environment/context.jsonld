@@ -24,6 +24,8 @@
         "pm25Level":"https://cityhub.kr/ngsi-ld/pm25Level",
         "o3Level":"https://cityhub.kr/ngsi-ld/o3Level",
         "khaiLevel":"https://cityhub.kr/ngsi-ld/khaiLevel",
+        "totalIndex":"https://cityhub.kr/ngsi-ld/totalIndex",
+        "totalCategory":"https://cityhub.kr/ngsi-ld/totalCategory",
     },
     "generatedAt": "2020-07-04T17:12:36+00:00"
 }
