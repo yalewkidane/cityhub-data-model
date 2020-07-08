@@ -1,3 +1,5 @@
+![alt cityhub](https://github.com/yalewkidane/cityhub-data-model/blob/master/images/cityhubs.png)
+
 # NGSI-LD Smart Environment Data Model for CITY HUB
 
 
