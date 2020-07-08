@@ -1,15 +1,6 @@
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png | width=100)
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png | width=100)
+![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png)
+![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png)
 
-
-<div class="row">
-  <div class="column">
-    <img src="https://yalewkidane.github.io/cityhub-data-model/images/deal.png" alt="Snow" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png" alt="Forest" style="width:100%">
-  </div>
-</div>
 
 <p align="center">
   <img src="https://yalewkidane.github.io/cityhub-data-model/images/cityhubs.png">
