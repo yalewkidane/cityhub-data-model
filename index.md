@@ -11,22 +11,27 @@
 ## 2.	Environment  Data model 
 
 ### 2.1.	[Air Quality Observation (미세먼지 측정)][AirQualityObservation.html]
-
-[AirQualityObservation.md]:https://yalewkidane.github.io/cityhub-data-model/AirQualityObservation.md
+[AirQualityObservation.md]:https://yalewkidane.github.io/cityhub-data-model/AirQualityObservation.html
 
 ### 2.2.  [Weather Observation (날씨 관측)][Weather_Observation_html]
 [Weather_Observation_html]:https://yalewkidane.github.io/cityhub-data-model/WeatherObservation.html
-### 2.3.  Odor observation (악취 측정)
+
+### 2.3.  [Odor observation (악취 측정)][Odor_observation_html]
+[Odor_observation_html]:https://yalewkidane.github.io/cityhub-data-model/OdorObservation.html
 
 ## 3.	Energy Data Model	
 
-### 3.1.	Individual energy measurement
+### 3.1.	[Individual Energy Measurement][Individual_Energy_Measurement]
+[Individual_Energy_Measurement]:https://yalewkidane.github.io/cityhub-data-model/IndividualEnergyMeasurement.html
 
-### 3.2.	Facility Energy	Usage measurment 
+### 3.2.	[Facility Energy	Usage Measurment][Facility_Energy_Usage_Measurment]
+[Facility_Energy_Usage_Measurment]:https://yalewkidane.github.io/cityhub-data-model/FacilityEnergyUsageMeasurment.html
 
-### 3.3.	Building Energy usage
+### 3.3.	[Building Energy Usage][Building_Energy_Usage]
+[Building_Energy_Usage]:https://yalewkidane.github.io/cityhub-data-model/BuildingEnergyUsage.html
 
-### 3.4.	Individual Electricity Measurement
+### 3.4.	[Individual Electricity Measurement][Individual_Electricity_Measurement]
+[Individual_Electricity_Measurement]:https://yalewkidane.github.io/cityhub-data-model/IndividualElectricityMeasurement.html
 
 
 <p align="center">
