@@ -1,5 +1,5 @@
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png)
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png)
+![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png =100x20)
+![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png =100x20)
 
 
 <p align="center">
