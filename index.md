@@ -1,6 +1,3 @@
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png){ width=50% }
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png){ width=50% }
-
 
 <p align="center">
   <img src="https://yalewkidane.github.io/cityhub-data-model/images/cityhubs.png">
@@ -13,7 +10,7 @@
 
 ## 2.	Environment  Data model 
 
-### 2.1.	[Air Quality Observation (미세먼지 측정)][AirQualityObservation.md]
+### 2.1.	[Air Quality Observation (미세먼지 측정)][AirQualityObservation.html]
 
 [AirQualityObservation.md]:https://yalewkidane.github.io/cityhub-data-model/AirQualityObservation.md
 
@@ -30,6 +27,11 @@
 ### 3.3.	Building Energy usage
 
 ### 3.4.	Individual Electricity Measurement
+
+
+
+![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png)
+![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png)
 
 
 
