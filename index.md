@@ -29,9 +29,15 @@
 ### 3.4.	Individual Electricity Measurement
 
 
+<p align="center">
+  <img src="https://yalewkidane.github.io/cityhub-data-model/images/deal.png">
+</p>
+<p align="center">
+  <img src="https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png">
+</p>
 
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png)
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png)
+`![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png)
+![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png)`
 
 
 
