@@ -1,6 +1,9 @@
 ![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/deal.png)
-![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/cityhubs.png)
 ![alt cityhub](https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png)
+
+<p align="center">
+  <img width="460" height="300" src="https://yalewkidane.github.io/cityhub-data-model/images/cityhubs.png">
+</p>
 
 # NGSI-LD Smart Data Model for CITY HUB
 
