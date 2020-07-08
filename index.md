@@ -10,8 +10,8 @@
 
 ## 2.	Environment  Data model 
 
-### 2.1.	[Air Quality Observation (미세먼지 측정)][AirQualityObservation.html]
-[AirQualityObservation.md]:https://yalewkidane.github.io/cityhub-data-model/AirQualityObservation.html
+### 2.1.	[Air Quality Observation (미세먼지 측정)][AirQualityObservation_html]
+[AirQualityObservation_html]:https://yalewkidane.github.io/cityhub-data-model/AirQualityObservation.html
 
 ### 2.2.  [Weather Observation (날씨 관측)][Weather_Observation_html]
 [Weather_Observation_html]:https://yalewkidane.github.io/cityhub-data-model/WeatherObservation.html
