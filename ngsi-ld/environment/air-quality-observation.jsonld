@@ -1,12 +1,17 @@
 {
   "$schema": "http://json-schema.org/schema#",
   "$schemaVersion": "0.0",
-  "$id": "https://cityhub.kr/AirQualityObserved/schema.json",
+  "$id": "https://smart-data-models.github.io/dataModel.Environment/AirQualityObserved/schema.json",
   "title": " - Air quality observed schema",
-  "description": "An observation of air quality 
-                conditions at a certain place and time.",
+  "description": "An observation of air quality conditions at a certain place and time.",
   "type": "object",
   "allOf": [
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/GSMA-Commons"
+    },
+    {
+      "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/Location-Commons"
+    },
     {
       "properties": {
         "type": {
@@ -14,24 +19,55 @@
           "enum": ["AirQualityObserved"],
           "description": "NGSI Entity type"
         },
-        "globalLocationNumber ": {
+        "dateObserved": {
+          "type": "string"
+        },
+        "areaServed": {
+          "type": "string"
+        },
+        "airQualityIndex": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "airQualityLevel": {
           "type": "string",
-          "description": "GS1 Global Location Number (GLN/SGLN)"
+          "minLength": 2
         },
-        "measurementType": {
-          "type": "String",
-          "description ": "similar to device  ",
-        },
-        "co2": {
+        "reliability": {
           "type": "number",
           "minimum": 0,
-          "description": "Carbon dioxide"
+          "maximum": 1.0
+        },
+        "as": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Arsenic"
+        },
+        "c6h6": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Benzene"
+        },
+        "cd": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Cadmium"
         },
         "co": {
           "type": "number",
           "minimum": 0,
           "description": "Carbon Monoxide"
         },
+        "ni": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Nickel"
+        },
+        "no": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Nitrogen monoxide"
+        }, 
         "no2": {
           "type": "number",
           "minimum": 0,
@@ -45,41 +81,44 @@
        "pm10": {
           "type": "number",
           "minimum": 0,
-          "description": "Particulate matter 1.0 
-                          micrometers or less in diameter"
+          "description": "Particulate matter 10 micrometers or less in diameter"
         },
         "pm25": {
           "type": "number",
           "minimum": 0,
           "description": "Particulate matter 2.5 micrometers or less in diameter"
         },
+        "pb": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Lead"
+        },        
+        "sh2": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Hydrogen sulfide"
+        },
         "so2": {
           "type": "number",
           "minimum": 0,
           "description": "Sulfur dioxide"
         },
-        "voc": {
+         "volatileOrganicCompoundsTotal": {
           "type": "number",
           "minimum": 0,
-          "description": "Volatile Organic Compound Concentration (VOC) (unit: ㎍/㎥)"
+          "description": "Alkanes <C10, ketones <C6, aldehydes <C10, carboxylic acids <C5, aspirits<C7, Alkenes <C8, Aromatics"
         },
-        "noise": {
-          "type": "number",
-          "minimum": 0,
-          "description": "?????"
+        "refDevice": {
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
         },
-        "deviceType":
-        {
-          "type": "string",
-          "enum": ["FixedAirQualityMeasurement","PortableAirQualityMeasurement", "MovableAirQualityMeasurement"],
-          "description": "Mobility of the measuring device "
+        "refPointOfInterest": {
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
         },
-        "indexRef": {
-          "$ref": "https://www.airkorea.or.kr/web/khaiInfo?pMENU_NO=129"
-        },
+        "refWeatherObserved": {
+          "$ref": "https://smart-data-models.github.io/data-models/common-schema.json#/definitions/EntityIdentifierType"
+        }
       }
     }
   ],
   "required": ["id", "type", "dateObserved", "location"]
 }
-
