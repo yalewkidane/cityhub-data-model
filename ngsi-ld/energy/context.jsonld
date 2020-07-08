@@ -44,7 +44,16 @@
         "hotWaterAmount":"https://cityhub.kr/ngsi-ld/hotWaterAmount",
         "lightAndHeatingAmount":"https://cityhub.kr/ngsi-ld/lightAndHeatingAmount",
         "transportAmount":"https://cityhub.kr/ngsi-ld/transportAmount",
-        "etcAmount":"https://cityhub.kr/ngsi-ld/etcAmount"
+        "etcAmount":"https://cityhub.kr/ngsi-ld/etcAmount",
+        "instrumentType":"https://cityhub.kr/ngsi-ld/instrumentType",
+        "totalActivePower":"https://cityhub.kr/ngsi-ld/totalActivePower",
+        "totalApparentPower":"https://cityhub.kr/ngsi-ld/totalApparentPower",
+        "totalReactivePower":"https://cityhub.kr/ngsi-ld/totalReactivePower",
+        "expectedTotalReactivePower":"https://cityhub.kr/ngsi-ld/expectedTotalReactivePower",
+        "totalPowerFactor":"https://cityhub.kr/ngsi-ld/totalPowerFactor",
+        "phaseVoltage":"https://cityhub.kr/ngsi-ld/phaseVoltage",
+        "OTG_RSTN_TYPE":"https://cityhub.kr/ngsi-ld/OTG_RSTN_TYPE",
+        "numberOfPowerOutage":"https://cityhub.kr/ngsi-ld/numberOfPowerOutage"
     },
     "generatedAt": "2020-07-04T17:12:36+00:00"
 }
