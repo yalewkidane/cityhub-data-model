@@ -1,37 +1,42 @@
-## Welcome to GitHub Pages
+<p align="center">
+  <img src="https://yalewkidane.github.io/cityhub-data-model/images/cityhubs.png">
+</p>
 
-You can use the [editor on GitHub](https://github.com/yalewkidane/cityhub-data-model/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# NGSI-LD Smart Data Model for CITY HUB
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## 1.	ID System
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## 2.	Environment  Data model 
 
-```markdown
-Syntax highlighted code block
+### 2.1.	[Air Quality Observation (미세먼지 측정)][AirQualityObservation_html]
+[AirQualityObservation_html]:https://yalewkidane.github.io/cityhub-data-model/pages/AirQualityObservation.html
 
-# Header 1
-## Header 2
-### Header 3
+### 2.2.  [Weather Observation (날씨 관측)][Weather_Observation_html]
+[Weather_Observation_html]:https://yalewkidane.github.io/cityhub-data-model/pages/WeatherObservation.html
 
-- Bulleted
-- List
+### 2.3.  [Odor observation (악취 측정)][Odor_observation_html]
+[Odor_observation_html]:https://yalewkidane.github.io/cityhub-data-model/pages/OdorObservation.html
 
-1. Numbered
-2. List
+## 3.	Energy Data Model	
 
-**Bold** and _Italic_ and `Code` text
+### 3.1.	[Individual Energy Measurement][Individual_Energy_Measurement]
+[Individual_Energy_Measurement]:https://yalewkidane.github.io/cityhub-data-model/pages/IndividualEnergyMeasurement.html
 
-[Link](url) and ![Image](src)
-```
+### 3.2.	[Facility Energy	Usage Measurment][Facility_Energy_Usage_Measurment]
+[Facility_Energy_Usage_Measurment]:https://yalewkidane.github.io/cityhub-data-model/pages/FacilityEnergyUsageMeasurment.html
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### 3.3.	[Building Energy Usage][Building_Energy_Usage]
+[Building_Energy_Usage]:https://yalewkidane.github.io/cityhub-data-model/pages/BuildingEnergyUsage.html
 
-### Jekyll Themes
+### 3.4.	[Individual Electricity Measurement][Individual_Electricity_Measurement]
+[Individual_Electricity_Measurement]:https://yalewkidane.github.io/cityhub-data-model/pages/IndividualElectricityMeasurement.html
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yalewkidane/cityhub-data-model/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+<p align="center">
+  <img src="https://yalewkidane.github.io/cityhub-data-model/images/deal.png">
+</p>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<p align="center">
+  <img src="https://yalewkidane.github.io/cityhub-data-model/images/autoidlabs.png">
+</p>
