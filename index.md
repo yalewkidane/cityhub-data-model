@@ -18,7 +18,7 @@
 
 ### [2.2.  Weather Observation (날씨 관측)](#-Weather-Observation)
 
-### [2.3.  Odor observation (악취 측정)](#-Test-test)
+### [2.3.  Odor observation (악취 측정)](#-test-test)
 
 ## 3.	Energy Data Model	
 
