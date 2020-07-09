@@ -35,6 +35,11 @@
 
 [Go to top](#ngsi-ld-smart-data-model-for-city-hub)
 
+We applied GS1 ID system to each entity.
+Please refer to the following document: 
+[식별/분류체계 정의서   Version 1.0]
+
+
 ## Environment  Data model [
 
 [Go to top](#ngsi-ld-smart-data-model-for-city-hub)
