@@ -6,40 +6,42 @@
 # NGSI-LD Smart Data Model for CITY HUB
 
 
-## 1.	ID System
+## [1.	ID System](#id-system)
 
-## 2.	Environment  Data model 
+## [2.	Environment Data model](#environment-data-model)
 
-### 2.1.	Air Quality Observation (미세먼지 측정)
+### [2.1.	Air Quality Observation (미세먼지 측정)](#air-quality-observation)
 
-```json
-```
+### [2.2.  Weather Observation (날씨 관측)](#weather-observation)
 
+### [2.3.  Odor observation (악취 측정)](#odor-observation)
 
-### [2.2.  Weather Observation (날씨 관측)](#-Weather-Observation)
+## [3.	Energy Data Model](#energy-data-model)
 
-### [2.3.  Odor observation (악취 측정)](#test-kit)
+### [3.1.	Individual Energy Measurement](#individual-energy-measurement)
 
-## 3.	Energy Data Model	
+### [3.2.	Facility Energy	Usage Measurment](#facility-energy-usage-measurment)
 
-### 3.1.	Individual Energy Measurement
+### [3.3.	Building Energy Usage](#building-energy-usage)
 
-### 3.2.	Facility Energy	Usage Measurment
-
-### 3.3.	Building Energy Usage
-
-### 3.4.	Individual Electricity Measurement
+### [3.4.	Individual Electricity Measurement](#individual-electricity-measurement)
 
 
 
 
 
 
-## ID System [Top](#ngsi-ld-smart-data-model-for-city-hub)
+## ID System 
 
-## Environment  Data model [Top](#ngsi-ld-smart-data-model-for-city-hub)
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
 
-### Air Quality Observation [Top](#ngsi-ld-smart-data-model-for-city-hub)
+## Environment  Data model [
+
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+### Air Quality Observation 
+
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
 
 ```json
 {
@@ -216,20 +218,72 @@
 ```
 
 
-### Weather Observation [Top](#ngsi-ld-smart-data-model-for-city-hub)
+### Weather Observation 
+
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+```json
+
+
+```
 
 ### Odor Observation
 
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+```json
+
+
+```
+
 ## Energy Data Model	
+
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+```json
+
+
+```
 
 ### Individual Energy Measurement
 
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+```json
+
+
+```
+
 ### Facility Energy	Usage Measurment
+
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+```json
+
+
+```
 
 ### Building Energy Usage
 
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+```json
+
+
+```
+
 ### Individual Electricity Measurement
 
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
+
+```json
+
+
+```
+
+
+
+[Go to top](#ngsi-ld-smart-data-model-for-city-hub)
 
 <p align="center">
   <img src="https://yalewkidane.github.io/cityhub-data-model/images/deal.png">
